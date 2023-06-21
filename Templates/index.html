@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="../Assets/fontawesome/css/all.css ">
+    <link rel="stylesheet" href="../Assets/fontawesome/css/fontawesome.min.css ">  -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../Assets/css/owl.theme.default.min.css" />
+    <script src="../Assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../Assets/js/owl.carousel.min.js"></script>
+    <script src="../Assets/js/script.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbr fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/Assets/img/landingpg-images/mainlogo.png"></a>
+        <button class="navbar-toggler p-1" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle
+          navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav ms-auto me-5 my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px;">
+            <li class="nav-item mx-4">
+              <a class="nav-link navtxt" aria-current="page" href="#">Venues</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link navtxt" href="#">Vendors</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link navtxt" href="#">Gallery</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link navtxt" href="#">Invitation</a>
+            </li>
+            <li class="nav-item mx-4 ">
+              <a class="nav-link navtxt" href="#">Blog</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn navbutlogin" type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="banner">
+          <div class="row">
+            <div class="col m-3 col1">
+              <p class="bannerhd">Find thw perfect Vendor</p>
+              <p class="bannerpara">Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.</p>
+              <div class="btn-group mt-3 drpbanner" role="group"
+                aria-label="Button group with nested dropdown">
+                <div class="btn-group ps-4" role="group">
+                  <button id="btnGroupDrop1 " type="button" class="btn "
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Location <img class="drparw" src="/Assets/img/landingpg-images/arrowdwn.png">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group ps-2 pe-4 cls2" role="group">
+                  <button id="btnGroupDrop2" type="button" class="btn"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Category <img class="drparw"
+                      src="/Assets/img/landingpg-images/arrowdwn.png">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btnsrch"><i class="fa
+                    fa-search" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="col d-none d-lg-block col2">
+              <img class="baninimg" src="/Assets/img/landingpg-images/bannerinner.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p class="wedcathead mt-5">Wedding Category</p>
+        <div id="category-slider" class="d-flex justify-content-between
+          flex-wrap mt-5 owl-carousel">
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/1.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/2.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/3.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/4.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/5.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/6.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+          <div class="card d-flex crdwedcat" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/7.png" class="card-img-top cdrimgcatwed"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text text-center textwedcat">Venues</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="d-flex justify-content-end text-dark">View More</a>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 createevent">
+        <div class="row pt-1">
+          <div class="col crtevntcol">
+            <p class="text createvnttext">Create Your Event</p>
+            <p class="text crtevntsubtext">Make any occasion Memorable and
+              Unforgetable!</p>
+            <button class="btn crtevnttbut">Create Event</button>
+          </div>
+          <div class="col pe-0 d-lg-block d-none pt-0 pb-0">
+            <img class="img" src="/Assets/img/landingpg-images/createvent.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5">
+        <p class="topvenuehead">Top Venues</p>
+        <div id="venue-slider" class="d-flex ms-3 justify-content-between
+          flex-wrap owl-carousel">
+          <div class="card mt-4 crdtopvenue" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/topvenue1.png" class="card-img-top mt-2
+              mx-auto topvenueimg" alt="...">
+            <div class="card-body ms-2 ">
+              <h5 class="card-title crdtitletopvenue">Gayatri Vihar- Sagar</h5>
+              <p class="card-text crdsubtexttopvenue"><i class="fas
+                  fa-map-marker-alt"></i> Mekhri Circle, Bangalore</p>
+              <p class="card-text ratingtopvenue"><i class="fa fa-star
+                  starcolor"></i> 4.5 (30 reviews)</p>
+            </div>
+          </div>
+          <div class="card mt-4 crdtopvenue" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/topvenue1.png" class="card-img-top mt-2
+              mx-auto topvenueimg" alt="...">
+            <div class="card-body ms-2 ">
+              <h5 class="card-title crdtitletopvenue">Gayatri Vihar- Sagar</h5>
+              <p class="card-text crdsubtexttopvenue"><i class="fas
+                  fa-map-marker-alt"></i> Mekhri Circle, Bangalore</p>
+              <p class="card-text ratingtopvenue"><i class="fa fa-star
+                  starcolor"></i> 4.5 (30 reviews)</p>
+            </div>
+          </div>
+          <div class="card mt-4 crdtopvenue" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/topvenue1.png" class="card-img-top mt-2
+              mx-auto topvenueimg" alt="...">
+            <div class="card-body ms-2 ">
+              <h5 class="card-title crdtitletopvenue">Gayatri Vihar- Sagar</h5>
+              <p class="card-text crdsubtexttopvenue"><i class="fas
+                  fa-map-marker-alt"></i> Mekhri Circle, Bangalore</p>
+              <p class="card-text ratingtopvenue"><i class="fa fa-star
+                  starcolor"></i> 4.5 (30 reviews)</p>
+            </div>
+          </div>
+          <div class="card mt-4 crdtopvenue" style="width: 18rem;">
+            <img src="/Assets/img/landingpg-images/topvenue1.png" class="card-img-top mt-2
+              mx-auto topvenueimg" alt="...">
+            <div class="card-body ms-2 ">
+              <h5 class="card-title crdtitletopvenue">Gayatri Vihar- Sagar</h5>
+              <p class="card-text crdsubtexttopvenue"><i class="fas
+                  fa-map-marker-alt"></i> Mekhri Circle, Bangalore</p>
+              <p class="card-text ratingtopvenue"><i class="fa fa-star
+                  starcolor"></i> 4.5 (30 reviews)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-4">
+        <p class="weggalhead">Wedding Gallery</p>
+        <div id="weeding-gallery-slider" class="d-flex ms-2 mt-4
+          justify-content-between
+          flex-wrap owl-carousel">
+          <div class="card wedgelcard">
+            <a href="#">
+              <img src="/Assets/img/landingpg-images/mehndi.png" class="card-img-top wedgalimg"
+                alt="..."></a>
+            <div class="card-body ps-0">
+              <p class="card-text wedgaltext">Mehendi Design</p>
+            </div>
+          </div>
+          <div class="card wedgelcard">
+            <a href="#">
+              <img src="/Assets/img/landingpg-images/mehndi.png" class="card-img-top wedgalimg"
+                alt="..."></a>
+            <div class="card-body ps-0">
+              <p class="card-text wedgaltext">Mehendi Design</p>
+            </div>
+          </div>
+          <div class="card wedgelcard">
+            <a href="#">
+              <img src="/Assets/img/landingpg-images/mehndi.png" class="card-img-top wedgalimg"
+                alt="..."></a>
+            <div class="card-body ps-0">
+              <p class="card-text wedgaltext">Mehendi Design</p>
+            </div>
+          </div>
+          <div class="card wedgelcard">
+            <a href="#">
+              <img src="/Assets/img/landingpg-images/mehndi.png" class="card-img-top wedgalimg"
+                alt="..."></a>
+            <div class="card-body ps-0">
+              <p class="card-text wedgaltext">Mehendi Design</p>
+            </div>
+          </div>
+          <div class="card wedgelcard">
+            <a href="#">
+              <img src="/Assets/img/landingpg-images/mehndi.png" class="card-img-top wedgalimg"
+                alt="..."></a>
+            <div class="card-body ps-0">
+              <p class="card-text wedgaltext">Mehendi Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container blog-container">
+        <p class="bloghead">Blogs</p>
+        <div class="row blogrow">
+          <div class="col col-lg-3 ">
+            <div class="blogss">
+             
+              <p class="blogsubtext p-3">Lorem Ipsum is simply dummy text of the
+                printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text
+                ever.</p>
+            </div>
+          </div>
+          <div class="col-md-8 ps-0">
+            <div id="blogs-slider" class="d-flex ms-1 mt-4 mb-4
+            justify-content-between
+            flex-wrap owl-carousel">
+            <div class="card blogcrd ">
+              <img src="/Assets/img/landingpg-images/blog1.png" class="card-img-top mx-auto mt-3 blogimg" alt="...">
+              <div class="card-body">
+                <p class="card-text blgcrdtext">200+  latest and trending 
+                  mehendi design </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-4 px-0">
+        <div class="card bg-dark text-white">
+          <img src="/Assets/img/landingpg-images/becomevendorbanner.png" class="card-img bcmrgstrimg" alt="...">
+          <div class="card-img-overlay text-center mt-5 texxtbcmvndr">
+            <p class="card-title bcmvndtitle">Become a Vendor</p>
+            <p class="card-text bcmvndsubtxt">Lorem Ipsum is simply dummy text of the printing.</p>
+            <button class="btn mt-3 registerbtnbanner">Register as Vendor</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container my-4 p-0">
+        <footer class="footer">
+          <div class="container p-4">
+            <div class="col-lg col-md mb-2 text-center">
+              <div class="d-flex justify-content-center">
+              <div class="px-2 pt-1"><img src="/Assets/img/landingpg-images/facebookicon.png" alt=""/></div>
+              <div class="px-2 pt-1"><img src="/Assets/img/landingpg-images/linkedinicon.png" alt=""/></div>
+              <div class="px-2 pt-1"><img src="/Assets/img/landingpg-images/googleicon.png" alt=""/></div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">About Us</p></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Contact Us</p></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Newsletter</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Terms & Condition</p></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Privacy Policy</p></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Careers</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Contact Specialist</p></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text"> Get Support</p></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!"><p class="footer-link-text">Media Enquiry</p></a>
+                  </li>
+                  <li>
+                    <a href="#!"><p class="footer-link-text">Partnership Enquiry</p></a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="text-center">
+          <p class="copyright">Copyright<i class="fas fa-copyright px-2"></i> 2022 Shunhalagna I All rights reserved</p>
+          </div>
+          </div>
+        </footer>
+      </div>
+    </footer>
+    <script>
+      jQuery(document).ready(function ($) {
+        $("#category-slider").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            360:{
+              items: 2,
+
+            },
+            600: {
+              items: 4,
+            },
+            1000: {
+          // stagePadding: 100,
+
+              items: 7,
+            },
+          },
+        });
+      });
+      jQuery(document).ready(function ($) {
+        $("#venue-slider").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            360:{
+              items: 1,
+
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+          // stagePadding: 100,
+
+              items: 3,
+            },
+          },
+        });
+      });
+      jQuery(document).ready(function ($) {
+        $("#weeding-gallery-slider").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            360:{
+              items: 1,
+
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+          // stagePadding: 100,
+
+              items: 5,
+            },
+          },
+        });
+      });
+      jQuery(document).ready(function ($) {
+        $("#blogs-slider").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            360:{
+              items: 1,
+
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+          // stagePadding: 100,
+
+              items: 2,
+            },
+            1200:{
+              items: 3,
+            }
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,783 @@
+/* ///////////////////navbar section//////////////////// */
+
+.navbar {
+  background: #f8ecc5;
+  box-shadow: 0px 4px 4px rgba(83, 83, 83, 0.5);
+  /* height: 50px !important; */
+}
+
+.navtxt {
+  /* font-family: 'Open Sans' !important; */
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: #000000 !important;
+}
+.navbar-toggler-icon {
+  color: #000000 !important;
+  /* background-color: #000000 !important; */
+}
+
+.navbutlogin {
+  width: 102px !important;
+  height: 32px !important;
+  background: #9b0000 !important;
+  border-radius: 8px !important;
+  /* font-family: 'Raleway' !important; */
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  /* identical to box height */
+  color: #ffffff !important;
+}
+/* ///////////////////banner section/////////////// */
+.banner {
+  height: 575px;
+  background: url(/Assets/img/landingpg-images/banner.png);
+}
+
+.bannerhd {
+  /* font-family: 'Raleway' !important; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #ffceaa;
+}
+.col1 {
+  position: relative;
+  left: 40px !important;
+  top: 180px;
+}
+
+.bannerpara {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px !important;
+
+  color: #ffffff;
+}
+
+.baninimg {
+  width: 570px !important;
+  height: 454px !important;
+}
+
+@media (min-width: 1399px) {
+  .col2 {
+    position: relative;
+    top: 190px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .baninimg {
+    width: 400px !important;
+    height: 354px !important;
+  }
+  .col2 {
+    position: relative !important;
+    top: 290px !important;
+    left: 40px !important;
+  }
+  .col1 {
+    position: relative;
+    left: 40px !important;
+    top: 150px;
+  }
+}
+
+@media (max-width: 572px) {
+  .bannerhd {
+    font-size: xx-large;
+  }
+  .bannerpara {
+    font-size: large;
+  }
+  .col2 {
+    display: none;
+  }
+  .col1 {
+    left: 0px !important;
+  }
+  .drparw {
+    display: none !important;
+  }
+
+  .drpbanner {
+    background: #ffffff !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px !important;
+    height: 60px;
+  }
+}
+
+.col2 {
+  position: relative;
+  top: 190px;
+}
+.drpbanner {
+  background: #ffffff !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 40px !important;
+}
+.btnsrch {
+  width: 58px !important;
+  height: 58px !important;
+  background-color: #ffceaa !important;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 40px !important;
+}
+
+.btn-group {
+  text-decoration: none !important;
+  /* font-family: 'Raleway'; */
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #000000 !important;
+}
+
+.drparw {
+  color: #ffceaa;
+  height: 11.849689483642578px !important;
+  width: 25.009614944458008px !important;
+  margin-left: 20px;
+  border-radius: 0px !important;
+}
+
+.crdwedcat {
+  width: 111px !important;
+  height: 125px !important;
+  background: #f8ecc5 !important;
+  border-radius: 10px !important;
+}
+.cdrimgcatwed {
+  width: 42px !important;
+  height: 42px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.textwedcat {
+  font-family: "Arial" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  color: #000000;
+}
+
+/* //////////////////////wedding Category////////////////////////// */
+.wedcathead {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  display: table !important;
+  border-bottom: 2px solid #ffceaa;
+}
+/* //////////////////////////////////create event section//////////////////////////// */
+.createevent {
+  height: 295px !important;
+  background-color: #f8ecc5 !important;
+}
+
+.createvnttext {
+  /* font-family: 'Raleway' !important; */
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 28px !important;
+  color: #910707 !important;
+}
+
+.crtevntsubtext {
+  /* font-family: 'Raleway' !important; */
+  font-style: normal !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #777676;
+}
+.crtevnttbut {
+  width: 185px !important;
+  height: 38px !important;
+  background-color: #9b0000 !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+.crtevntcol {
+  margin-top: 80px !important;
+  margin-left: 50px;
+}
+@media (max-width: 992px) {
+  .createevent img {
+    width: 430px !important;
+    height: 290px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .createevent img {
+    width: 600px !important;
+    height: 290px !important;
+  }
+}
+
+/* //////////top venue section/////////// */
+.topvenuehead {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  display: table !important;
+  border-bottom: 2px solid #ffceaa;
+}
+.topvenueimg {
+  width: 275px !important;
+  height: 231px !important;
+  border: 1px solid #c7c7c7 !important;
+  border-radius: 10px !important;
+}
+.crdtopvenue {
+  width: 301px !important;
+  height: auto !important;
+
+  border: 1px solid #c7c7c7 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 10px !important;
+}
+.crdtitletopvenue {
+  /* font-family: 'Raleway'; */
+  font-style: normal !important ;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: #000000;
+}
+.crdsubtexttopvenue {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #646161;
+}
+.starcolor {
+  color: rgb(255, 202, 87) !important;
+}
+.ratingtopvenue {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+/* /////////////////////////////wedding gallery section/////////////// */
+.weggalhead {
+  /* font-family: 'Open Sans'; */
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 33px !important;
+  color: #000000 !important;
+  display: table !important;
+  border-bottom: 2px solid #ffceaa;
+}
+.wedgelcard {
+  width: 197px;
+  height: auto;
+  border-radius: 10px !important;
+  border: none !important;
+}
+.wedgaltext {
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+/* //////////////////////////Blog Section/////////////// */
+.blog-container {
+  width: 1200px;
+  height: auto;
+  background: #f0f8c5;
+}
+.bloghead {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  display: table !important;
+  border-bottom: 2px solid #ffceaa;
+}
+.blogsubtext {
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #6a6a6a;
+}
+.blogss {
+  position: relative;
+  left: 20px !important;
+  /* top: 160px; */
+}
+.blogrow {
+  position: relative;
+}
+.blogcrd {
+  width: 243px !important;
+  height: auto !important;
+  background: #ffffff !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 20px !important;
+}
+.blgcrdtext {
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #000000;
+}
+.blogimg {
+  width: 218px !important;
+  height: 175px !important;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+  border-radius: 20px !important;
+}
+
+/* //////////////////////Becomed A Vendor Section////// */
+.bcmvndtitle {
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+
+  color: #ffffff;
+}
+.bcmvndsubtxt {
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #f0f8c5;
+}
+
+.registerbtnbanner {
+  width: 243px !important;
+  height: 54px !important;
+  background: #3d4ddb !important;
+  border-radius: 10px !important;
+  /* font-family: 'Open Sans' !important; */
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+
+  color: #ffffff !important;
+}
+.bcmrgstrimg {
+  height: 279px !important;
+}
+/* /////////////footer part ///////// */
+.footer {
+  background: #f8ecc5;
+}
+.footer-link-text {
+  /* font-family: 'Open Sans'; */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+a {
+  text-decoration: none !important;
+}
+.copyright {
+  /* font-family: 'Open Sans'; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+/* ////////////////////////****************Gallery Page*****************/ /*////////////////////////////////*/
+.pagetitle {
+  padding-top: 90px !important;
+  color: #6a6a6a  !important  ;
+}
+
+.galleryhead {
+  text-align: center;
+  /* font: normal normal bold 32px/43px Open Sans; */
+  letter-spacing: 0px;
+  color: #0d0d0e;
+  opacity: 1;
+  font-style: bold !important;
+}
+.gallerysubtext{
+  /* font-family: Raleway !important;   */
+  text-align: center !important;;
+font-size: 18px ;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.gallerycard {
+  width: 143px !important;
+  height: auto !important;
+  background: #ffffff !important;
+  border: none !important;
+
+}
+.gallerycrdtext {
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #000000;
+}
+.galleryimg {
+  width: 65px !important;
+  height: 65px !important;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) !important;
+  border-radius: 50% !important;
+}
+
+.hrline{
+  border: 2px solid #080303 !important;
+}
+.galleryimgpagg{
+  width: 242px;
+height: 144px;
+}
+.gallerypaginationtext{
+  font-style: bold !important;
+  font-weight: 800;
+  color: #000 !important;
+  border: none !important;
+}
+.gallerypaginationtext:hover{
+  background-color: #F8ECC5 !important;
+}
+
+/* //////////////////////owl carasol//////////////// */
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+  background-color: #000000;
+}
+.owl-nav button.owl-next {
+  right: -30px;
+  background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    font-size: 20px !important;
+    transform: translateX(-50%);
+    border-radius: 50px !important;
+    width: 35px !important;
+      height: 35px !important;
+      background: #FFFFFF !important;
+      border: 1px solid #F0F0F0 !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+/* //////////////////////////////////////////////////// */
+/* //////////////////********Blog Section************* ////*/
+.blogpghead{
+  font-size: 24px !important;
+  /* font-family: Raleway !important; */
+  font-weight: 700;
+}
+.blogpgsubtext{
+  color: #858688;
+  /* font-family: Raleway !important; */
+  font-size: 16px !important;
+
+}
+.blogbyimg{
+  height: 40px;
+  width: 40px;
+  border-radius: 40% !important;
+}
+.blogimgdetail{
+  color: #858688;
+  font-size: 20px;
+}
+.verline{
+  border-left: 2px solid rgb(89, 90, 89);
+  height: 30px;
+}
+
+
+.blogbannerimg{
+  width: 90%;
+  height: auto !important;
+}
+.blogdescription1{
+color: #858688;
+font-size: 17px;
+font-family: Raleway !important;
+}
+.blogdescription2{
+  color: #858688;
+  font-size: 17px;
+font-family: Raleway !important;
+}
+
+/* ////*****CarirerPage *********.///// */
+.textcarrierbanner{
+  color: white;
+}
+.carrierimgbnr{
+  filter: brightness(50%);
+  height: 400px;
+}
+.carrierbannerhead{
+  font-size: 48px;
+}
+.carriersubtext{
+  /* font-family:Open Sans, Regular; */
+  font-size: 20px;
+}
+.carrierdescription{
+  /* font-family: Raleway !important; */
+  color: #858688;
+  font-size: 20px;
+}
+.crdcarrier{
+  width: 453px !important;
+height: auto px !important;
+background: #FFFFFF 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029 !important;
+border: 1px solid #B2ACAC !important;
+border-radius: 20px !important;
+opacity: 1 !important;
+}
+.carrierapplichead{
+  /* font-family: Open Sans !important; */
+  font-style: bold !important;
+  font-size: 24px !important;
+  font-weight: 700;
+}
+.carrierapplication input{
+  width: 190px !important;
+height: 36px !important;
+border-radius: 10px !important;
+}
+@media screen {
+  
+}
+.carrierapplication label{
+font-size: 13px !important;
+font-style: bold !important;
+font-weight: 700 !important;
+}
+.resumeup{
+  width:auto px !important;
+height: auto !important;
+border: 1px solid #9E9595 !important;
+border-radius: 10px !important;
+opacity: 0.47 !important;
+font-size: 13px !important;
+font-weight: 600;
+}
+.maxfile{
+  font-weight:  200 !important;
+}
+.carrierappsubmit{
+  width: 162px !important;
+height: 38px !important;
+background: #000000 0% 0% no-repeat padding-box !important;
+border-radius: 10px !important;
+opacity: 1 !important;
+color: white !important;
+font-size: 15px !important;
+font-weight: 700;
+align-self: center !important;
+}
+.carrierapplication input::placeholder {
+
+  opacity: 0.5;
+  font-size: 12px !important;
+
+}
+
+/* /////*****Contact-Us Page///******* */
+.contactimgbnr{
+  
+    filter: brightness(50%);
+    height: 400px;
+
+}
+.contactbannerhead{
+    font-size: 48px;
+  
+}
+.contactsubtext{
+  font-size: 20px;
+}
+.contactusapplication label{
+  font-size: 13px !important;
+font-style: bold !important;
+font-weight: 700 !important;
+}
+.contactustext{
+  width: 100%;
+height: 118px;
+  border: 1px solid #9E9595 !important;
+  border-radius: 10px !important;
+  opacity: 0.47 !important;
+  font-size: 13px !important;
+  font-weight: 600;
+}
+.carrierlongtext{
+  color: #A7A7A7;
+  font-size: 12px;
+
+}
+.iconcarcolor{
+  color: #000;
+}
+.crdcontactus{
+  width: 400px !important;
+  height: auto  !important;
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  border: 1px solid #B2ACAC !important;
+  border-radius: 20px !important;
+  opacity: 1 !important;
+}
+/* //////////vendor-customer-login-register-forgetpassword-resetpassword/////////// */
+.loginvendorhead{
+  font-size: 30px;
+  font-weight: 800;
+}
+.loginvendorsubtext{
+  color: #131313;
+  font-size: 20px;
+}
+.vendorloginpage label{
+  font-size: 18px !important;
+font-style: bold !important;
+font-weight: 700 !important;
+}
+.vendorloginpage input{
+  width: 70%;
+height: 41px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #000000;
+opacity: 1;
+border-radius: 0px !important;
+}
+
+.btn-loginvendor{
+  width: 180px !important;
+height: 50px !important;
+/* UI Properties */
+background: #9B0000 0% 0% no-repeat padding-box !important;
+border-radius: 10px !important;
+color: white !important;
+font-size: 22px !important;
+}
+.orloginwith{
+  font-size: 24px !important;
+}
+.regloginvendor{
+  font-size: 20px;
+}
+.reglog{
+  color: #000;
+  font-weight: 700;
+}
+.btn-customerregbutt{
+  width: 193px !important;
+height: 54px !important;
+/* UI Properties */
+background: #F2070F 0% 0% no-repeat padding-box !important;
+border-radius: 10px !important;
+opacity: 1 !important;
+font-size: 26px;
+color: white !important;;
+}
+
+/* ///********SHortlist Section//////////////// */
+
+.shortlisthead{
+  text-align: center;
+}
+.shortlistsubtext{
+  color: #707070;
+  font-size: 20px;
+  text-align: center;
+}
+.cardshortlist{
+  width: 229px !important;
+height: auto !important;
+background: #FFFFFF 0% 0% no-repeat padding-box !important;
+border: 1px solid #A4A4A4 !important;
+border-radius: 20px !important;
+opacity: 1 !important;
+}
+.cardimgshortlist{
+  width: 211px !important;
+height: 176px !important;
+border-radius: 20px !important;
+}
+.shorlistcrdhead{
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.shortlistcardlocation{
+  color: #7E7070;
+  font-size: 14px !important;
+}
+.shortlistcrdrating{
+  color: #7E7070;
+  font-size: 13px !important;
+}
+.shortliststarcolor{
+  color: orange;
+}
